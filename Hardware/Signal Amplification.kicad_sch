@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "68268ca7-41c7-493f-93e6-2429c9369fe3")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "+3V3"
+		(shape input)
+		(at 95.25 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18c847ac-d967-4831-a4d9-85b016431b9e")
+	)
+	(hierarchical_label "Input DC-Coupled"
+		(shape input)
+		(at 50.8 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e85b57f-fc9a-40aa-9f05-8e6536b5e3c3")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 97.79 90.17 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58db40ac-b913-458c-a027-53b97ae85ab3")
+	)
+	(hierarchical_label "Output DC-Coupled, Ref3V3"
+		(shape input)
+		(at 149.86 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d2294d7-df52-4b34-a25e-26fbc48fc6f8")
+	)
+)

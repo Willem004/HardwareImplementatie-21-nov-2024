@@ -582,6 +582,10 @@
     [
       "154ccd26-fdda-4c85-b8a7-c0bf9df9e351",
       "Original Smog Detector"
+    ],
+    [
+      "ffe985ef-02be-4854-90cb-f60d9decc95d",
+      "Signal Amplification"
     ]
   ],
   "text_variables": {}

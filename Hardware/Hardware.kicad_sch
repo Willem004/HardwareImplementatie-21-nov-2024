@@ -35,10 +35,78 @@
 				(justify left top)
 			)
 		)
+		(pin "GND" input
+			(at 38.1 50.8 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "522dc00e-25e3-44a5-a2d1-737c181a563c")
+		)
+		(pin "+1V5" input
+			(at 38.1 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ca1a4f00-1a9e-47e7-8f78-cd7553f319d7")
+		)
+		(pin "Output DC-Coupled" input
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c9221a1c-d844-4fd9-8f98-df37fb8c5404")
+		)
 		(instances
 			(project "Hardware"
 				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 25.4)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ffe985ef-02be-4854-90cb-f60d9decc95d")
+		(property "Sheetname" "Signal Amplification"
+			(at 63.5 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Signal Amplification.kicad_sch"
+			(at 63.5 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hardware"
+				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a"
+					(page "3")
 				)
 			)
 		)
