@@ -4,9 +4,258 @@
 	(generator_version "8.0")
 	(uuid "4e457c11-25d4-4677-9942-6ed7396aaf8a")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 139.7 133.35) (xy 139.7 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b67c94-a646-4b3c-92d3-c8477a94ee5e")
+	)
+	(wire
+		(pts
+			(xy 88.9 127) (xy 88.9 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65aa05c5-6467-4450-a7dc-d3c1eed5245f")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dad65efa-7f71-4f56-b673-87715a694ab5")
+		(property "Reference" "#PWR02"
+			(at 139.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "746aae1b-f15a-4624-ba5a-0d36b1a87a96")
+		)
+		(instances
+			(project ""
+				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f789e30b-8261-4877-b126-b7fdbfad6a2a")
+		(property "Reference" "#PWR01"
+			(at 88.9 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc0dceed-2a55-4afa-a1a2-b038c9fe117a")
+		)
+		(instances
+			(project ""
+				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 25.4 25.4)
+		(at 76.2 101.6)
 		(size 25.4 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -18,7 +267,7 @@
 		)
 		(uuid "154ccd26-fdda-4c85-b8a7-c0bf9df9e351")
 		(property "Sheetname" "Original Smog Detector"
-			(at 25.4 24.6884 0)
+			(at 76.2 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +276,7 @@
 			)
 		)
 		(property "Sheetfile" "Original Smog Detector.kicad_sch"
-			(at 25.4 51.3846 0)
+			(at 76.2 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +285,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 38.1 50.8 270)
+			(at 88.9 127 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,7 +295,7 @@
 			(uuid "522dc00e-25e3-44a5-a2d1-737c181a563c")
 		)
 		(pin "+1V5" input
-			(at 38.1 25.4 90)
+			(at 88.9 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +305,7 @@
 			(uuid "ca1a4f00-1a9e-47e7-8f78-cd7553f319d7")
 		)
 		(pin "Output DC-Coupled" input
-			(at 50.8 38.1 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,8 +323,8 @@
 		)
 	)
 	(sheet
-		(at 63.5 25.4)
-		(size 25.4 25.4)
+		(at 127 95.25)
+		(size 38.1 38.1)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -86,7 +335,7 @@
 		)
 		(uuid "ffe985ef-02be-4854-90cb-f60d9decc95d")
 		(property "Sheetname" "Signal Amplification"
-			(at 63.5 24.6884 0)
+			(at 127 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -95,13 +344,63 @@
 			)
 		)
 		(property "Sheetfile" "Signal Amplification.kicad_sch"
-			(at 63.5 51.3846 0)
+			(at 127 133.9346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "OUT REF_Half3V3" input
+			(at 165.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ef33271a-b994-4781-9276-54e9527fa305")
+		)
+		(pin "+3V3" input
+			(at 139.7 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "557ef9b0-af67-4d79-b86a-8ffa05d740bb")
+		)
+		(pin "GND" input
+			(at 139.7 133.35 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fa57ebfc-f9a2-4efc-8417-08e2144ad656")
+		)
+		(pin "Input DC-Coupled" input
+			(at 127 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "afdca5eb-d2f8-45b2-9393-d1f51fe6f329")
+		)
+		(pin "Output Bias1V65" input
+			(at 165.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "27992f3d-3780-487f-a9f1-62115db60607")
 		)
 		(instances
 			(project "Hardware"
