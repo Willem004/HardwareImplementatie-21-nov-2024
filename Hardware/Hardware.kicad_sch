@@ -323,6 +323,44 @@
 		)
 	)
 	(sheet
+		(at 127 50.8)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "692eb005-8324-4e8b-b607-01126a2ca3b4")
+		(property "Sheetname" "PSU"
+			(at 127 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 127 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Hardware"
+				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 127 95.25)
 		(size 38.1 38.1)
 		(fields_autoplaced yes)
