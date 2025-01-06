@@ -342,14 +342,6 @@
 			)
 		)
 	)
-	(no_connect
-		(at 177.8 107.95)
-		(uuid "65ba06fc-5c56-4627-bfd5-618282d6b8ae")
-	)
-	(no_connect
-		(at 177.8 120.65)
-		(uuid "e78c9c37-4bce-4b45-b423-ed43fbd145f0")
-	)
 	(wire
 		(pts
 			(xy 149.86 29.21) (xy 149.86 34.29)
@@ -362,7 +354,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 107.95) (xy 177.8 107.95)
+			(xy 165.1 107.95) (xy 190.5 107.95)
 		)
 		(stroke
 			(width 0)
@@ -402,7 +394,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 120.65) (xy 177.8 120.65)
+			(xy 165.1 120.65) (xy 190.5 120.65)
 		)
 		(stroke
 			(width 0)
@@ -432,6 +424,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 96.52) (xy 203.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acded5b5-64ae-419f-80b8-2f1985cb6ac8")
+	)
+	(wire
+		(pts
 			(xy 143.51 59.69) (xy 143.51 64.77)
 		)
 		(stroke
@@ -439,6 +441,16 @@
 			(type default)
 		)
 		(uuid "b6daa18d-bbb4-463f-8871-b84236140390")
+	)
+	(wire
+		(pts
+			(xy 203.2 127) (xy 203.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7d62a6-449a-48af-b919-067228722e8e")
 	)
 	(wire
 		(pts
@@ -709,6 +721,138 @@
 			(project ""
 				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 203.2 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "896710cf-464e-462c-93e3-1cfddbdc4884")
+		(property "Reference" "#PWR08"
+			(at 203.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 203.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85349898-18c8-4223-a652-3ef0f034c04a")
+		)
+		(instances
+			(project "Hardware"
+				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8eb9596-1a56-415e-94a3-922d6cc46d13")
+		(property "Reference" "#PWR09"
+			(at 203.2 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dabd1724-be26-4632-a3b4-0de945d4d73d")
+		)
+		(instances
+			(project "Hardware"
+				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1078,6 +1222,46 @@
 				(justify left top)
 			)
 		)
+		(pin "GND" input
+			(at 203.2 127 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "686dc403-beaf-4d73-a72b-dcfab6b564bb")
+		)
+		(pin "+3V3" input
+			(at 203.2 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b6c54912-08d4-4333-aa6d-bf85b3df3f28")
+		)
+		(pin "IN Ref" input
+			(at 190.5 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "68c4508c-397c-46f6-a70e-c7f1b41554a7")
+		)
+		(pin "IN Signal" input
+			(at 190.5 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b4e21f52-2216-41f9-8f83-e4e86851bd0f")
+		)
 		(instances
 			(project "Hardware"
 				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a"
@@ -1156,7 +1340,7 @@
 			)
 			(uuid "afdca5eb-d2f8-45b2-9393-d1f51fe6f329")
 		)
-		(pin "Output Bias1V65" input
+		(pin "OUT Signal Bias1V65" input
 			(at 165.1 107.95 0)
 			(effects
 				(font
@@ -1164,7 +1348,7 @@
 				)
 				(justify right)
 			)
-			(uuid "27992f3d-3780-487f-a9f1-62115db60607")
+			(uuid "022bc741-0adb-4442-997d-7a3763c33e86")
 		)
 		(instances
 			(project "Hardware"
