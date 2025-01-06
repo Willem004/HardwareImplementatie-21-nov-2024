@@ -1639,7 +1639,7 @@
 		)
 		(uuid "5b88393f-ef29-49d4-b451-7a7d02db2a19")
 	)
-	(hierarchical_label "Output Bias1V65"
+	(hierarchical_label "OUT Signal Bias1V65"
 		(shape input)
 		(at 203.2 115.57 0)
 		(fields_autoplaced yes)
