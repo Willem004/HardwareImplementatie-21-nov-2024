@@ -2635,7 +2635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb2f6cd3-ba31-43b1-81aa-07c194a2728b")
-		(property "Reference" "R2"
+		(property "Reference" "R17"
 			(at 101.6 120.65 90)
 			(effects
 				(font
@@ -2687,7 +2687,7 @@
 		(instances
 			(project ""
 				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a/154ccd26-fdda-4c85-b8a7-c0bf9df9e351"
-					(reference "R2")
+					(reference "R17")
 					(unit 1)
 				)
 			)
