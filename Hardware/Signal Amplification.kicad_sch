@@ -141,6 +141,428 @@
 				)
 			)
 		)
+		(symbol "Device:Opamp_Quad"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Opamp_Quad"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad operational amplifier"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Name" "kicad_builtin_opamp_quad"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Opamp_Quad_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Opamp_Quad_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Opamp_Quad_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Opamp_Quad_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Opamp_Quad_5_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -262,223 +684,18 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:OPAMP"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "${SIM.PARAMS}"
-				(at 3.81 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "kicad_builtin_opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "OPAMP_0_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "OPAMP_1_1"
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
+	)
+	(junction
+		(at 96.52 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e6997bb-bd78-47e3-a1fa-da78ec97f856")
 	)
 	(junction
 		(at 189.23 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "413fb9bc-6978-46e0-9471-aa52e8746e89")
-	)
-	(junction
-		(at 97.79 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4831fbcf-fb89-42b2-847e-816a6ad6cc92")
 	)
 	(junction
 		(at 162.56 115.57)
@@ -505,6 +722,12 @@
 		(uuid "585863e0-4790-40b7-b411-bfafa030150e")
 	)
 	(junction
+		(at 201.93 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "592bb0d2-9f24-429c-99c4-49ba57a3df63")
+	)
+	(junction
 		(at 170.18 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -527,6 +750,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b2abafd-2ad0-48fb-ab9a-f03396b5b430")
+	)
+	(junction
+		(at 201.93 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7993e2bd-0666-419b-b7e7-93ec0fd781b0")
 	)
 	(junction
 		(at 134.62 49.53)
@@ -640,6 +869,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 60.96) (xy 201.93 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dcb1aa4-7bfa-48ec-8296-ca8adf65917e")
+	)
+	(wire
+		(pts
 			(xy 185.42 130.81) (xy 185.42 135.89)
 		)
 		(stroke
@@ -660,6 +899,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 118.11) (xy 95.25 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa298d6-d5de-4ab2-b2d5-eed5a474b626")
+	)
+	(wire
+		(pts
 			(xy 162.56 134.62) (xy 153.67 134.62)
 		)
 		(stroke
@@ -670,7 +919,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 120.65) (xy 77.47 120.65)
+			(xy 80.01 120.65) (xy 76.2 120.65)
 		)
 		(stroke
 			(width 0)
@@ -690,17 +939,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 107.95) (xy 85.09 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32fc7def-fe44-4586-a402-de3021667dd4")
-	)
-	(wire
-		(pts
-			(xy 114.3 63.5) (xy 114.3 52.07)
+			(xy 114.3 55.88) (xy 114.3 52.07)
 		)
 		(stroke
 			(width 0)
@@ -710,7 +949,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 118.11) (xy 95.25 118.11)
+			(xy 208.28 58.42) (xy 208.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c8f504-b895-4d8f-bde0-0fc0a88d8550")
+	)
+	(wire
+		(pts
+			(xy 96.52 118.11) (xy 110.49 118.11)
 		)
 		(stroke
 			(width 0)
@@ -740,17 +989,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 118.11) (xy 110.49 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "419d0153-d9a2-4e84-a422-001aed08bf6e")
-	)
-	(wire
-		(pts
-			(xy 97.79 134.62) (xy 97.79 118.11)
+			(xy 96.52 125.73) (xy 96.52 118.11)
 		)
 		(stroke
 			(width 0)
@@ -800,7 +1039,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 120.65) (xy 77.47 134.62)
+			(xy 76.2 120.65) (xy 76.2 125.73)
 		)
 		(stroke
 			(width 0)
@@ -817,16 +1056,6 @@
 			(type default)
 		)
 		(uuid "534bfeb6-47c0-4703-ad6f-ffce65501409")
-	)
-	(wire
-		(pts
-			(xy 121.92 39.37) (xy 121.92 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54cabaf8-3be8-440a-b41f-c59a75325cd0")
 	)
 	(wire
 		(pts
@@ -870,13 +1099,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 49.53) (xy 134.62 63.5)
+			(xy 134.62 49.53) (xy 134.62 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "657725a9-3549-4040-802a-7ed01d6a69cf")
+	)
+	(wire
+		(pts
+			(xy 208.28 40.64) (xy 201.93 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bcdd91e-0828-46e3-9003-b6c911642e41")
 	)
 	(wire
 		(pts
@@ -910,7 +1149,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 134.62) (xy 97.79 134.62)
+			(xy 76.2 125.73) (xy 96.52 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1100,6 +1339,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 43.18) (xy 208.28 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b133fa80-16fd-427c-93c6-21b4dc180e39")
+	)
+	(wire
+		(pts
 			(xy 189.23 54.61) (xy 189.23 57.15)
 		)
 		(stroke
@@ -1130,7 +1379,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 63.5) (xy 114.3 63.5)
+			(xy 134.62 55.88) (xy 114.3 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1230,16 +1479,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 125.73) (xy 85.09 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d96b0a04-0df1-4546-af20-0c32473ac452")
-	)
-	(wire
-		(pts
 			(xy 132.08 49.53) (xy 134.62 49.53)
 		)
 		(stroke
@@ -1300,6 +1539,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 60.96) (xy 201.93 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe3eab7-9867-46eb-8ff9-505e1866503c")
+	)
+	(wire
+		(pts
 			(xy 142.24 113.03) (xy 144.78 113.03)
 		)
 		(stroke
@@ -1330,13 +1579,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 57.15) (xy 121.92 59.69)
+			(xy 201.93 40.64) (xy 201.93 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe2be8d8-5efd-4d7f-b7e0-53d30d41b8bb")
+		(uuid "f32dfa2a-b104-45f2-8d0f-94053882079b")
 	)
 	(rectangle
 		(start 171.45 104.14)
@@ -1352,7 +1601,7 @@
 	)
 	(rectangle
 		(start 73.66 100.33)
-		(end 101.6 138.43)
+		(end 101.6 128.27)
 		(stroke
 			(width 0)
 			(type default)
@@ -1441,13 +1690,14 @@
 		)
 		(uuid "bc5aadc5-8910-4191-989a-b189a26b354c")
 	)
-	(text "Buffer"
+	(text "Buffer\nCan still add more filtering \nin feedback of this buffer"
 		(exclude_from_sim no)
-		(at 91.44 109.982 0)
+		(at 87.884 101.092 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify top)
 		)
 		(uuid "09f7c8e5-357e-4518-83bd-2df4339e5295")
 	)
@@ -1553,17 +1803,6 @@
 		)
 		(uuid "0d39347c-09c7-4f99-80ca-c98a16e7b688")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 85.09 128.27 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "12134368-639e-4d13-bfe5-aef42e0eb5d6")
-	)
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 149.86 105.41 90)
@@ -1610,17 +1849,6 @@
 	)
 	(hierarchical_label "+3V3"
 		(shape input)
-		(at 121.92 39.37 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "594f6876-19af-4f85-bc62-042e1808b8de")
-	)
-	(hierarchical_label "+3V3"
-		(shape input)
 		(at 170.18 31.75 90)
 		(effects
 			(font
@@ -1640,17 +1868,6 @@
 			(justify left)
 		)
 		(uuid "7d2294d7-df52-4b34-a25e-26fbc48fc6f8")
-	)
-	(hierarchical_label "+3V3"
-		(shape input)
-		(at 85.09 107.95 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "93d2abab-f9af-4815-823a-8f85f6e758c5")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -1684,17 +1901,6 @@
 			(justify right)
 		)
 		(uuid "e7dd792b-f8a1-48e9-b60e-d5e78ec3db6f")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 121.92 59.69 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e8558a71-79aa-4668-a0f4-53271dc45920")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1928,7 +2134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 106.3752 62.23 0)
 			(effects
 				(font
@@ -1974,10 +2180,10 @@
 		(lib_id "Device:C")
 		(at 201.93 50.8 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "38c0baac-27bc-4441-bb5d-4049a43d8c4e")
 		(property "Reference" "C12"
 			(at 202.184 48.26 0)
@@ -2040,42 +2246,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:OPAMP")
-		(at 87.63 118.11 0)
+		(lib_id "Device:Opamp_Quad")
+		(at 124.46 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "52a417db-59bb-4cdc-86da-747f9b91a45c")
-		(property "Reference" "U3"
-			(at 95.25 113.0614 0)
+		(uuid "4ee9ccb8-0987-4e2b-a4c5-9c055e7f6664")
+		(property "Reference" "U1"
+			(at 124.46 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "${SIM.PARAMS}"
-			(at 95.25 114.9665 0)
+		(property "Value" "Opamp_Quad"
+			(at 124.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 87.63 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-			(at 87.63 118.11 0)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 124.46 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,8 +2280,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
-			(at 87.63 118.11 0)
+		(property "Datasheet" "~"
+			(at 124.46 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,8 +2289,26 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
-			(at 87.63 118.11 0)
+		(property "Description" "Quad operational amplifier"
+			(at 124.46 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 124.46 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 124.46 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,17 +2317,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 87.63 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 87.63 118.11 0)
+			(at 124.46 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,34 +2325,61 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Name" "kicad_builtin_opamp"
-			(at 87.63 118.11 0)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 124.46 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "15f0d229-4366-4607-ae13-4861f46cd255")
 		)
 		(pin "2"
-			(uuid "9ef2647e-e1da-4dfd-bc5f-1cf8acaba705")
+			(uuid "b483ac3a-f2d9-4c51-aac8-b42bc4571948")
 		)
-		(pin "5"
-			(uuid "eed1fc93-33ca-4ad8-9f07-ab4e9fbacb3c")
+		(pin "10"
+			(uuid "735b195a-3fe7-446f-9e7e-58d338245675")
 		)
-		(pin "3"
-			(uuid "dbfb838f-8b82-48da-9d3c-d81794e12466")
+		(pin "14"
+			(uuid "fa955d14-8845-4072-9202-4fabeeb023a4")
+		)
+		(pin "11"
+			(uuid "87149831-2f3a-47f3-83b4-3956189c7ca4")
+		)
+		(pin "12"
+			(uuid "90ec9de8-1710-4a3b-98c7-3c47b0ba0efc")
+		)
+		(pin "8"
+			(uuid "a5bcf069-e5e2-416c-8ef9-2883bba5f81d")
+		)
+		(pin "9"
+			(uuid "26fe2173-bb75-4587-bf74-e88f63e8ccbe")
 		)
 		(pin "4"
-			(uuid "e23c3d6f-90d2-4dfb-80d8-585efd29fe96")
+			(uuid "d273ee25-83e9-4d81-9fb6-e4fe04e2ef77")
+		)
+		(pin "1"
+			(uuid "e8ab0f75-dbe2-4cc8-8da3-4029d63495be")
+		)
+		(pin "3"
+			(uuid "b2e0a879-204d-4b57-be08-2bb70aba55ce")
+		)
+		(pin "7"
+			(uuid "94ddf953-2bfc-42d7-8c08-46b664ae992f")
+		)
+		(pin "5"
+			(uuid "9cf52792-aed6-4e10-9874-6c22ac709864")
+		)
+		(pin "6"
+			(uuid "fe3cc68e-67f3-4aae-bfb8-10690574aab0")
+		)
+		(pin "13"
+			(uuid "542b6564-e0ef-4e48-8ec2-c0a66d02f2c2")
 		)
 		(instances
-			(project "Hardware"
+			(project ""
 				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a/ffe985ef-02be-4854-90cb-f60d9decc95d"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2364,10 +2596,10 @@
 		(lib_id "Device:C")
 		(at 195.58 50.8 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "97375e8a-6d95-4423-b88a-2d30a3c0d6e5")
 		(property "Reference" "C11"
 			(at 195.834 48.26 0)
@@ -2525,7 +2757,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 118.11 117.1448 0)
 			(effects
 				(font
@@ -2563,6 +2795,288 @@
 				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a/ffe985ef-02be-4854-90cb-f60d9decc95d"
 					(reference "C4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 220.98 140.97 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9b07294-7f92-4f5e-a1ed-f56c06f20acb")
+		(property "Reference" "U1"
+			(at 220.98 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Quad"
+			(at 220.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad operational amplifier"
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 220.98 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b483ac3a-f2d9-4c51-aac8-b42bc4571948")
+		)
+		(pin "10"
+			(uuid "f5fe758c-9835-42d3-9de1-6ad8654c6d2b")
+		)
+		(pin "14"
+			(uuid "fa955d14-8845-4072-9202-4fabeeb023a4")
+		)
+		(pin "11"
+			(uuid "87149831-2f3a-47f3-83b4-3956189c7ca4")
+		)
+		(pin "12"
+			(uuid "90ec9de8-1710-4a3b-98c7-3c47b0ba0efc")
+		)
+		(pin "8"
+			(uuid "68a89ce2-01ce-4a0f-b840-a6e4df6d7d45")
+		)
+		(pin "9"
+			(uuid "ef686e06-7dc4-48f2-86b1-90c6162b1d74")
+		)
+		(pin "4"
+			(uuid "d273ee25-83e9-4d81-9fb6-e4fe04e2ef77")
+		)
+		(pin "1"
+			(uuid "e8ab0f75-dbe2-4cc8-8da3-4029d63495be")
+		)
+		(pin "3"
+			(uuid "b2e0a879-204d-4b57-be08-2bb70aba55ce")
+		)
+		(pin "7"
+			(uuid "94ddf953-2bfc-42d7-8c08-46b664ae992f")
+		)
+		(pin "5"
+			(uuid "9cf52792-aed6-4e10-9874-6c22ac709864")
+		)
+		(pin "6"
+			(uuid "fe3cc68e-67f3-4aae-bfb8-10690574aab0")
+		)
+		(pin "13"
+			(uuid "542b6564-e0ef-4e48-8ec2-c0a66d02f2c2")
+		)
+		(instances
+			(project "Hardware"
+				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a/ffe985ef-02be-4854-90cb-f60d9decc95d"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 210.82 50.8 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa3aa778-5af6-4bcd-9ae3-22b4fb50fd9c")
+		(property "Reference" "U1"
+			(at 209.55 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Opamp_Quad"
+			(at 209.55 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 210.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad operational amplifier"
+			(at 210.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 210.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 210.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 210.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 210.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b483ac3a-f2d9-4c51-aac8-b42bc4571948")
+		)
+		(pin "10"
+			(uuid "735b195a-3fe7-446f-9e7e-58d338245675")
+		)
+		(pin "14"
+			(uuid "fa955d14-8845-4072-9202-4fabeeb023a4")
+		)
+		(pin "11"
+			(uuid "87149831-2f3a-47f3-83b4-3956189c7ca4")
+		)
+		(pin "12"
+			(uuid "90ec9de8-1710-4a3b-98c7-3c47b0ba0efc")
+		)
+		(pin "8"
+			(uuid "a5bcf069-e5e2-416c-8ef9-2883bba5f81d")
+		)
+		(pin "9"
+			(uuid "26fe2173-bb75-4587-bf74-e88f63e8ccbe")
+		)
+		(pin "4"
+			(uuid "d273ee25-83e9-4d81-9fb6-e4fe04e2ef77")
+		)
+		(pin "1"
+			(uuid "e8ab0f75-dbe2-4cc8-8da3-4029d63495be")
+		)
+		(pin "3"
+			(uuid "b2e0a879-204d-4b57-be08-2bb70aba55ce")
+		)
+		(pin "7"
+			(uuid "94ddf953-2bfc-42d7-8c08-46b664ae992f")
+		)
+		(pin "5"
+			(uuid "9cf52792-aed6-4e10-9874-6c22ac709864")
+		)
+		(pin "6"
+			(uuid "fe3cc68e-67f3-4aae-bfb8-10690574aab0")
+		)
+		(pin "13"
+			(uuid "542b6564-e0ef-4e48-8ec2-c0a66d02f2c2")
+		)
+		(instances
+			(project ""
+				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a/ffe985ef-02be-4854-90cb-f60d9decc95d"
+					(reference "U1")
+					(unit 5)
 				)
 			)
 		)
@@ -2631,120 +3145,6 @@
 			(project "Hardware"
 				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a/ffe985ef-02be-4854-90cb-f60d9decc95d"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:OPAMP")
-		(at 152.4 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af268098-a7f3-4711-b8b3-88acf20f26ce")
-		(property "Reference" "U1"
-			(at 160.02 110.5214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "${SIM.PARAMS}"
-			(at 160.02 112.4265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-			(at 152.4 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
-			(at 152.4 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
-			(at 152.4 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 152.4 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 152.4 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp"
-			(at 152.4 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e88b9dc0-fd88-49a0-84ef-c678cf9d2a1b")
-		)
-		(pin "2"
-			(uuid "b53836c3-4495-4c8c-a9d1-e31aac209979")
-		)
-		(pin "5"
-			(uuid "f51d06f0-aa3f-4f2d-ad83-230fd7140c4d")
-		)
-		(pin "3"
-			(uuid "ba7bf349-a29e-4d9a-94ec-c551c7aa2fd3")
-		)
-		(pin "4"
-			(uuid "009e6523-be23-4190-826f-bfa1692306fd")
-		)
-		(instances
-			(project ""
-				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a/ffe985ef-02be-4854-90cb-f60d9decc95d"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2820,6 +3220,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 152.4 115.57 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8c10026-4c13-47da-9b8d-e4ec820ffe9c")
+		(property "Reference" "U1"
+			(at 152.4 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Quad"
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad operational amplifier"
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 152.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b483ac3a-f2d9-4c51-aac8-b42bc4571948")
+		)
+		(pin "10"
+			(uuid "735b195a-3fe7-446f-9e7e-58d338245675")
+		)
+		(pin "14"
+			(uuid "fa955d14-8845-4072-9202-4fabeeb023a4")
+		)
+		(pin "11"
+			(uuid "87149831-2f3a-47f3-83b4-3956189c7ca4")
+		)
+		(pin "12"
+			(uuid "90ec9de8-1710-4a3b-98c7-3c47b0ba0efc")
+		)
+		(pin "8"
+			(uuid "a5bcf069-e5e2-416c-8ef9-2883bba5f81d")
+		)
+		(pin "9"
+			(uuid "26fe2173-bb75-4587-bf74-e88f63e8ccbe")
+		)
+		(pin "4"
+			(uuid "d273ee25-83e9-4d81-9fb6-e4fe04e2ef77")
+		)
+		(pin "1"
+			(uuid "e8ab0f75-dbe2-4cc8-8da3-4029d63495be")
+		)
+		(pin "3"
+			(uuid "b2e0a879-204d-4b57-be08-2bb70aba55ce")
+		)
+		(pin "7"
+			(uuid "94ddf953-2bfc-42d7-8c08-46b664ae992f")
+		)
+		(pin "5"
+			(uuid "9cf52792-aed6-4e10-9874-6c22ac709864")
+		)
+		(pin "6"
+			(uuid "fe3cc68e-67f3-4aae-bfb8-10690574aab0")
+		)
+		(pin "13"
+			(uuid "542b6564-e0ef-4e48-8ec2-c0a66d02f2c2")
+		)
+		(instances
+			(project ""
+				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a/ffe985ef-02be-4854-90cb-f60d9decc95d"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 100.33 58.42 0)
 		(unit 1)
@@ -2846,7 +3386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 101.2952 62.23 0)
 			(effects
 				(font
@@ -3025,120 +3565,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:OPAMP")
-		(at 124.46 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df09a1c7-3bb7-41b0-b6a5-f7633e07fe9f")
-		(property "Reference" "U2"
-			(at 132.08 44.4814 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "${SIM.PARAMS}"
-			(at 132.08 46.3865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-			(at 124.46 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
-			(at 124.46 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
-			(at 124.46 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 124.46 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 124.46 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp"
-			(at 124.46 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee456790-2edb-4bd2-bf73-15e23104f8a3")
-		)
-		(pin "2"
-			(uuid "ccabce65-8052-4815-a71a-55e577aaa8e3")
-		)
-		(pin "5"
-			(uuid "ab03280d-7bdc-4792-a9ca-fc4880db9970")
-		)
-		(pin "3"
-			(uuid "bac06400-5383-4709-a2f1-dc4316194581")
-		)
-		(pin "4"
-			(uuid "2ac7606b-5d57-4911-8f0b-909d4a459c6b")
-		)
-		(instances
-			(project "Hardware"
-				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a/ffe985ef-02be-4854-90cb-f60d9decc95d"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 92.71 39.37 0)
 		(unit 1)
@@ -3204,6 +3630,146 @@
 				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a/ffe985ef-02be-4854-90cb-f60d9decc95d"
 					(reference "R1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Quad")
+		(at 87.63 118.11 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f98080b4-1c96-4041-970d-71ba76f16e74")
+		(property "Reference" "U1"
+			(at 87.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Quad"
+			(at 87.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 87.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad operational amplifier"
+			(at 87.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 87.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_quad"
+			(at 87.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 87.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
+			(at 87.63 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b483ac3a-f2d9-4c51-aac8-b42bc4571948")
+		)
+		(pin "10"
+			(uuid "735b195a-3fe7-446f-9e7e-58d338245675")
+		)
+		(pin "14"
+			(uuid "fa955d14-8845-4072-9202-4fabeeb023a4")
+		)
+		(pin "11"
+			(uuid "87149831-2f3a-47f3-83b4-3956189c7ca4")
+		)
+		(pin "12"
+			(uuid "90ec9de8-1710-4a3b-98c7-3c47b0ba0efc")
+		)
+		(pin "8"
+			(uuid "a5bcf069-e5e2-416c-8ef9-2883bba5f81d")
+		)
+		(pin "9"
+			(uuid "26fe2173-bb75-4587-bf74-e88f63e8ccbe")
+		)
+		(pin "4"
+			(uuid "d273ee25-83e9-4d81-9fb6-e4fe04e2ef77")
+		)
+		(pin "1"
+			(uuid "e8ab0f75-dbe2-4cc8-8da3-4029d63495be")
+		)
+		(pin "3"
+			(uuid "b2e0a879-204d-4b57-be08-2bb70aba55ce")
+		)
+		(pin "7"
+			(uuid "94ddf953-2bfc-42d7-8c08-46b664ae992f")
+		)
+		(pin "5"
+			(uuid "9cf52792-aed6-4e10-9874-6c22ac709864")
+		)
+		(pin "6"
+			(uuid "fe3cc68e-67f3-4aae-bfb8-10690574aab0")
+		)
+		(pin "13"
+			(uuid "542b6564-e0ef-4e48-8ec2-c0a66d02f2c2")
+		)
+		(instances
+			(project ""
+				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a/ffe985ef-02be-4854-90cb-f60d9decc95d"
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)

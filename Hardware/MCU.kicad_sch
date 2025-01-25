@@ -2941,6 +2941,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 36.83) (xy 85.09 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280f1fcf-158b-4d20-a48d-395ea494e192")
+	)
+	(wire
+		(pts
 			(xy 59.69 110.49) (xy 59.69 118.11)
 		)
 		(stroke
@@ -3281,6 +3291,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 24.13) (xy 85.09 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aba8c95-a411-44f6-98f8-bc2766364115")
+	)
+	(wire
+		(pts
 			(xy 176.53 135.89) (xy 190.5 135.89)
 		)
 		(stroke
@@ -3428,6 +3448,16 @@
 			(type default)
 		)
 		(uuid "54a4ccfb-0fe4-4670-bff4-cd6aa8651d83")
+	)
+	(wire
+		(pts
+			(xy 92.71 34.29) (xy 92.71 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557edbb6-c9c8-4bb5-b457-41f718cb12e5")
 	)
 	(wire
 		(pts
@@ -4758,6 +4788,16 @@
 			(type default)
 		)
 		(uuid "f98a0b0b-ec4e-4688-abd2-9c3826fedf9c")
+	)
+	(wire
+		(pts
+			(xy 92.71 26.67) (xy 92.71 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99bc015-6045-41af-ae10-93c30c27b7b9")
 	)
 	(wire
 		(pts
@@ -6279,6 +6319,75 @@
 			(justify left)
 		)
 		(uuid "fadebb7d-2d75-4b6f-9983-b0eea53a7382")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 92.71 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05286a41-8b12-471e-8194-2449c5575d9d")
+		(property "Reference" "C22"
+			(at 93.726 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 93.472 33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 93.6752 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e02c1dbb-e00b-45c2-9b67-3fc84064ac44")
+		)
+		(pin "1"
+			(uuid "009df9cb-2dbc-4646-91a5-4a496b325d04")
+		)
+		(instances
+			(project "Hardware"
+				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a/9fe3c419-1bbf-4711-a173-31b4697dc050"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
