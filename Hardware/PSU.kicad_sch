@@ -2803,7 +2803,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 173.99 53.086 0)
 			(effects
 				(font
@@ -2812,7 +2812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 177.4952 54.61 0)
 			(effects
 				(font
@@ -3066,8 +3066,8 @@
 		(at 213.36 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "21268f08-1570-46da-9077-c124451b276e")
@@ -3290,7 +3290,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 205.74 92.456 0)
 			(effects
 				(font
@@ -3299,7 +3299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 209.2452 93.98 0)
 			(effects
 				(font
@@ -3439,7 +3439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm"
 			(at 212.09 45.72 0)
 			(effects
 				(font
@@ -3570,7 +3570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nF"
 			(at 173.99 92.456 0)
 			(effects
 				(font
@@ -3579,7 +3579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 177.4952 93.98 0)
 			(effects
 				(font
@@ -3795,7 +3795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 113.9952 100.33 0)
 			(effects
 				(font
@@ -4127,7 +4127,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 205.74 53.086 0)
 			(effects
 				(font
@@ -4136,7 +4136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 209.2452 54.61 0)
 			(effects
 				(font
@@ -4204,7 +4204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 222.25 47.498 90)
 			(effects
 				(font
@@ -4317,8 +4317,8 @@
 		(at 213.36 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f6b99bff-0c7e-48b2-966e-0851cf6312f6")
