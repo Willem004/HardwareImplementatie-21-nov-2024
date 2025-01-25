@@ -2611,7 +2611,6 @@
 	)
 	(label "C2"
 		(at 41.91 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2622,7 +2621,6 @@
 	)
 	(label "+BATT_SWITCH"
 		(at 99.06 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2633,7 +2631,6 @@
 	)
 	(label "+BATT_SWITCH"
 		(at 156.21 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2644,7 +2641,6 @@
 	)
 	(label "+BATT"
 		(at 60.96 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2655,7 +2651,6 @@
 	)
 	(label "C1"
 		(at 41.91 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2666,7 +2661,6 @@
 	)
 	(label "EN"
 		(at 187.96 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2677,7 +2671,6 @@
 	)
 	(label "EN"
 		(at 152.4 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2688,7 +2681,6 @@
 	)
 	(label "+BATT_SWITCH"
 		(at 156.21 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2699,7 +2691,6 @@
 	)
 	(label "EN"
 		(at 187.96 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2710,7 +2701,6 @@
 	)
 	(label "+BATT_SWITCH"
 		(at 85.09 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2721,7 +2711,6 @@
 	)
 	(label "+BATT"
 		(at 39.37 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2733,7 +2722,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 39.37 91.44 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2745,7 +2733,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 198.12 99.06 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2757,7 +2744,6 @@
 	(hierarchical_label "1V5"
 		(shape input)
 		(at 255.27 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2769,7 +2755,6 @@
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 275.59 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2781,7 +2766,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 198.12 59.69 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2793,7 +2777,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 105.41 105.41 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

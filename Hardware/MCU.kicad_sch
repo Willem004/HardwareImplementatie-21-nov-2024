@@ -2175,6 +2175,151 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 139.7 167.64)
@@ -2297,6 +2442,12 @@
 		(uuid "9dfe3363-3836-41d9-ba09-d58d095e649f")
 	)
 	(junction
+		(at 113.03 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f80a910-1e86-4647-9814-80a4a73fcf8c")
+	)
+	(junction
 		(at 44.45 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2319,6 +2470,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc317277-3bb5-4d58-bac0-056c20c09b51")
+	)
+	(junction
+		(at 106.68 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c54327d8-b198-49e6-ba9b-4f2dcc09437a")
 	)
 	(junction
 		(at 139.7 177.8)
@@ -2671,6 +2828,16 @@
 			(type default)
 		)
 		(uuid "1e64cd51-3d76-443e-b4e8-d2dc462163ae")
+	)
+	(wire
+		(pts
+			(xy 100.33 113.03) (xy 100.33 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eacb586-c8ea-44ec-b473-04006f9d77cd")
 	)
 	(wire
 		(pts
@@ -3184,6 +3351,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 100.33) (xy 115.57 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c9dec1-0fad-40b6-b50c-f10dcd78d2a6")
+	)
+	(wire
+		(pts
 			(xy 57.15 102.87) (xy 59.69 102.87)
 		)
 		(stroke
@@ -3281,6 +3458,16 @@
 			(type default)
 		)
 		(uuid "599a1d19-493b-40c0-8325-18e7b70bb8b1")
+	)
+	(wire
+		(pts
+			(xy 106.68 115.57) (xy 113.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a17ad1e-55b7-447a-a467-24ab7b3d44e4")
 	)
 	(wire
 		(pts
@@ -3421,6 +3608,16 @@
 			(type default)
 		)
 		(uuid "6bdbf53e-cede-4635-97d6-418d6bdb4c07")
+	)
+	(wire
+		(pts
+			(xy 113.03 100.33) (xy 113.03 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c42e303-88d3-4dcc-81b7-f2d6b98799bb")
 	)
 	(wire
 		(pts
@@ -3661,6 +3858,16 @@
 			(type default)
 		)
 		(uuid "91a4614a-f5c8-443a-be15-f971dd6e6d54")
+	)
+	(wire
+		(pts
+			(xy 113.03 115.57) (xy 113.03 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921ee667-1831-4316-89ac-217052f5700d")
 	)
 	(wire
 		(pts
@@ -3994,6 +4201,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 115.57) (xy 106.68 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c4e04b-47be-499a-a4ea-e77fb3e3622a")
+	)
+	(wire
+		(pts
 			(xy 48.26 73.66) (xy 48.26 71.12)
 		)
 		(stroke
@@ -4081,6 +4298,16 @@
 			(type default)
 		)
 		(uuid "bfe413df-b122-4302-9a5b-40642f0fa0fc")
+	)
+	(wire
+		(pts
+			(xy 100.33 102.87) (xy 100.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42cb754-0308-4ee2-bc85-7d22609d3f89")
 	)
 	(wire
 		(pts
@@ -4241,6 +4468,16 @@
 			(type default)
 		)
 		(uuid "d7e13b39-a912-4928-85f3-af92eaa9ccf1")
+	)
+	(wire
+		(pts
+			(xy 100.33 100.33) (xy 113.03 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8da7afb-710f-4301-86c9-dc8674102c3e")
 	)
 	(wire
 		(pts
@@ -4421,6 +4658,16 @@
 			(type default)
 		)
 		(uuid "ef11f372-b4ea-4806-a993-323c842d06b0")
+	)
+	(wire
+		(pts
+			(xy 106.68 118.11) (xy 106.68 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4b52e8-ff11-419e-b4a5-83eec4aed604")
 	)
 	(wire
 		(pts
@@ -4644,6 +4891,18 @@
 		)
 		(uuid b25044d7-1212-4584-ae49-6cfc4c8c6a10)
 	)
+	(rectangle
+		(start 95.25 92.71)
+		(end 123.19 124.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c43fc1b2-f9aa-4f1b-8050-c8d03ef5e9ad)
+	)
 	(text "SPI1"
 		(exclude_from_sim no)
 		(at 258.572 134.874 0)
@@ -4684,6 +4943,16 @@
 		)
 		(uuid "6d25b0f5-1c31-4a07-a80e-2bc0ba9e8882")
 	)
+	(text "Reset Button"
+		(exclude_from_sim no)
+		(at 106.426 96.012 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "74bd3899-9f8a-4d26-a0cf-076e8b06b84e")
+	)
 	(text "USART2"
 		(exclude_from_sim no)
 		(at 66.802 131.572 0)
@@ -4696,7 +4965,6 @@
 	)
 	(label "PA5 A5"
 		(at 63.5 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4707,7 +4975,6 @@
 	)
 	(label "PA7 A7"
 		(at 63.5 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4718,7 +4985,6 @@
 	)
 	(label "PA9"
 		(at 168.91 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4729,7 +4995,6 @@
 	)
 	(label "PA14 SWCLK"
 		(at 63.5 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4740,7 +5005,6 @@
 	)
 	(label "PA1 A1"
 		(at 63.5 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4751,7 +5015,6 @@
 	)
 	(label "PA13 SWDIO"
 		(at 176.53 157.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4762,7 +5025,6 @@
 	)
 	(label "PA2 A2"
 		(at 114.3 167.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4773,7 +5035,6 @@
 	)
 	(label "I2C_SCL"
 		(at 224.79 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4784,7 +5045,6 @@
 	)
 	(label "PB1 A9 VREF_OUT"
 		(at 35.56 189.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4795,7 +5055,6 @@
 	)
 	(label "PA9"
 		(at 198.12 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4806,7 +5065,6 @@
 	)
 	(label "PA4 A4"
 		(at 43.18 193.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4817,7 +5075,6 @@
 	)
 	(label "PA3 A3"
 		(at 63.5 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4828,7 +5085,6 @@
 	)
 	(label "SPI1_SCK"
 		(at 218.44 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4839,7 +5095,6 @@
 	)
 	(label "NRST"
 		(at 168.91 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4850,7 +5105,6 @@
 	)
 	(label "PA4 A4"
 		(at 168.91 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4861,7 +5115,6 @@
 	)
 	(label "LPUART1_CTS"
 		(at 142.24 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4872,7 +5125,6 @@
 	)
 	(label "PA3 A3"
 		(at 168.91 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4883,7 +5135,6 @@
 	)
 	(label "NRST"
 		(at 88.9 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4894,7 +5145,6 @@
 	)
 	(label "PA10"
 		(at 168.91 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4905,7 +5155,6 @@
 	)
 	(label "PB1 A9 VREF_OUT"
 		(at 33.02 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4916,7 +5165,6 @@
 	)
 	(label "SPI1_MOSI"
 		(at 241.3 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4927,7 +5175,6 @@
 	)
 	(label "PA0 A0"
 		(at 43.18 181.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4938,7 +5185,6 @@
 	)
 	(label "PC15 OSC32_OUT"
 		(at 168.91 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4949,7 +5195,6 @@
 	)
 	(label "PB9 Boot0"
 		(at 168.91 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4960,7 +5205,6 @@
 	)
 	(label "USART2_CK"
 		(at 69.85 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4971,7 +5215,6 @@
 	)
 	(label "USART2_RTS"
 		(at 69.85 176.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4982,7 +5225,6 @@
 	)
 	(label "PA0 A0"
 		(at 35.56 165.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4993,7 +5235,6 @@
 	)
 	(label "LPUART1_RX"
 		(at 142.24 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5004,7 +5245,6 @@
 	)
 	(label "SPI1_MOSI"
 		(at 218.44 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5015,7 +5255,6 @@
 	)
 	(label "PB9 Boot0"
 		(at 88.9 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5026,7 +5265,6 @@
 	)
 	(label "PA1 A1"
 		(at 39.37 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5037,7 +5275,6 @@
 	)
 	(label "NRST"
 		(at 33.02 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5048,7 +5285,6 @@
 	)
 	(label "USART2_RTS"
 		(at 45.72 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5059,7 +5295,6 @@
 	)
 	(label "PA7 A7"
 		(at 43.18 184.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5070,7 +5305,6 @@
 	)
 	(label "PA7 A7"
 		(at 168.91 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5081,7 +5315,6 @@
 	)
 	(label "PB1 A9 VREF_OUT"
 		(at 184.15 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5092,7 +5325,6 @@
 	)
 	(label "PA4 A4"
 		(at 63.5 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5103,7 +5335,6 @@
 	)
 	(label "PA10"
 		(at 63.5 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5114,7 +5345,6 @@
 	)
 	(label "PC15 OSC32_OUT"
 		(at 33.02 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5125,7 +5355,6 @@
 	)
 	(label "PC14 OSC32_IN"
 		(at 33.02 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5136,7 +5365,6 @@
 	)
 	(label "USART2_RX"
 		(at 45.72 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5147,7 +5375,6 @@
 	)
 	(label "PA13 SWDIO"
 		(at 63.5 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5158,7 +5385,6 @@
 	)
 	(label "PA13 SWDIO"
 		(at 190.5 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5169,7 +5395,6 @@
 	)
 	(label "PA14 SWCLK"
 		(at 176.53 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5180,7 +5405,6 @@
 	)
 	(label "PA6 A6"
 		(at 168.91 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5191,7 +5415,6 @@
 	)
 	(label "SPI1_SCK"
 		(at 241.3 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5202,7 +5425,6 @@
 	)
 	(label "PA7 A7"
 		(at 69.85 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5213,7 +5435,6 @@
 	)
 	(label "PA1 A1"
 		(at 190.5 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5224,7 +5445,6 @@
 	)
 	(label "LPUART1_RX"
 		(at 118.11 149.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5235,7 +5455,6 @@
 	)
 	(label "PA3 A3"
 		(at 54.61 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5246,7 +5465,6 @@
 	)
 	(label "PA3 A3"
 		(at 43.18 168.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5257,7 +5475,6 @@
 	)
 	(label "LPUART1_RTS"
 		(at 118.11 152.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5268,7 +5485,6 @@
 	)
 	(label "PA4 A4"
 		(at 114.3 170.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5279,7 +5495,6 @@
 	)
 	(label "PB1 A9 VREF_OUT"
 		(at 106.68 187.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5290,7 +5505,6 @@
 	)
 	(label "PA6 A6"
 		(at 63.5 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5301,7 +5515,6 @@
 	)
 	(label "I2C_SMBA"
 		(at 243.84 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5312,7 +5525,6 @@
 	)
 	(label "PA14 SWCLK"
 		(at 114.3 172.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5323,7 +5535,6 @@
 	)
 	(label "SPI1_NSS"
 		(at 218.44 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5334,7 +5545,6 @@
 	)
 	(label "PB1 A9 VREF_OUT"
 		(at 69.85 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5343,9 +5553,18 @@
 		)
 		(uuid "6d4b6545-149b-4104-b2d6-9b5087143f0f")
 	)
+	(label "NRST"
+		(at 115.57 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72e5db64-c068-41b6-b4c3-e24ad8a8fb17")
+	)
 	(label "USART2_CTS"
 		(at 45.72 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5356,7 +5575,6 @@
 	)
 	(label "PA14 SWCLK"
 		(at 168.91 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5367,7 +5585,6 @@
 	)
 	(label "PA1 A1"
 		(at 43.18 176.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5378,7 +5595,6 @@
 	)
 	(label "I2C_SDA"
 		(at 243.84 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5389,7 +5605,6 @@
 	)
 	(label "PA2 A2"
 		(at 39.37 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5400,7 +5615,6 @@
 	)
 	(label "PA0 A0"
 		(at 114.3 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5411,7 +5625,6 @@
 	)
 	(label "PA14 SWCLK"
 		(at 43.18 160.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5422,7 +5635,6 @@
 	)
 	(label "USART2_TX"
 		(at 45.72 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5433,7 +5645,6 @@
 	)
 	(label "PA7 A7"
 		(at 191.77 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5444,7 +5655,6 @@
 	)
 	(label "PB9 Boot0"
 		(at 33.02 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5455,7 +5665,6 @@
 	)
 	(label "PA9"
 		(at 63.5 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5466,7 +5675,6 @@
 	)
 	(label "PA1 A1"
 		(at 168.91 27.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5477,7 +5685,6 @@
 	)
 	(label "PA4 A4"
 		(at 190.5 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5488,7 +5695,6 @@
 	)
 	(label "PA13 SWDIO"
 		(at 168.91 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5499,7 +5705,6 @@
 	)
 	(label "PA4 A4"
 		(at 54.61 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5510,7 +5715,6 @@
 	)
 	(label "PA0 A0"
 		(at 168.91 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5521,7 +5725,6 @@
 	)
 	(label "PA4 A4"
 		(at 191.77 149.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5532,7 +5735,6 @@
 	)
 	(label "SPI1_NSS"
 		(at 241.3 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5543,7 +5745,6 @@
 	)
 	(label "PA5 A5"
 		(at 168.91 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5554,7 +5755,6 @@
 	)
 	(label "LPUART1_TX"
 		(at 118.11 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5565,7 +5765,6 @@
 	)
 	(label "USART2_TX"
 		(at 69.85 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5576,7 +5775,6 @@
 	)
 	(label "LPUART1_CTS"
 		(at 118.11 154.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5587,7 +5785,6 @@
 	)
 	(label "PA2 A2"
 		(at 43.18 154.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5598,7 +5795,6 @@
 	)
 	(label "PA10"
 		(at 43.18 171.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5609,7 +5805,6 @@
 	)
 	(label "PA0 A0"
 		(at 63.5 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5620,7 +5815,6 @@
 	)
 	(label "PA5 A5"
 		(at 54.61 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5631,7 +5825,6 @@
 	)
 	(label "PA0 A0"
 		(at 39.37 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5642,7 +5835,6 @@
 	)
 	(label "PA5 A5"
 		(at 191.77 154.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5653,7 +5845,6 @@
 	)
 	(label "SPI1_MISO"
 		(at 241.3 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5664,7 +5855,6 @@
 	)
 	(label "I2C_SCL"
 		(at 243.84 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5675,7 +5865,6 @@
 	)
 	(label "SPI1_MISO"
 		(at 218.44 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5686,7 +5875,6 @@
 	)
 	(label "PA13 SWDIO"
 		(at 114.3 182.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5697,7 +5885,6 @@
 	)
 	(label "I2C_SMBA"
 		(at 224.79 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5708,7 +5895,6 @@
 	)
 	(label "LPUART1_RTS"
 		(at 142.24 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5719,7 +5905,6 @@
 	)
 	(label "PA14 SWCLK"
 		(at 190.5 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5730,7 +5915,6 @@
 	)
 	(label "PA2 A2"
 		(at 63.5 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5741,7 +5925,6 @@
 	)
 	(label "LPUART1_TX"
 		(at 142.24 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5752,7 +5935,6 @@
 	)
 	(label "PA3 A3"
 		(at 114.3 180.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5763,7 +5945,6 @@
 	)
 	(label "PA6 A6"
 		(at 191.77 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5774,7 +5955,6 @@
 	)
 	(label "PA2 A2"
 		(at 168.91 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5785,7 +5965,6 @@
 	)
 	(label "PA6 A6"
 		(at 69.85 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5796,7 +5975,6 @@
 	)
 	(label "PA6 A6"
 		(at 106.68 193.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5807,7 +5985,6 @@
 	)
 	(label "PA10"
 		(at 198.12 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5818,7 +5995,6 @@
 	)
 	(label "USART2_CK"
 		(at 45.72 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5829,7 +6005,6 @@
 	)
 	(label "PA13 SWDIO"
 		(at 88.9 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5840,7 +6015,6 @@
 	)
 	(label "USART2_CTS"
 		(at 69.85 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5851,7 +6025,6 @@
 	)
 	(label "PB1 A9 VREF_OUT"
 		(at 168.91 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5862,7 +6035,6 @@
 	)
 	(label "PA14 SWCLK"
 		(at 88.9 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5873,7 +6045,6 @@
 	)
 	(label "USART2_RX"
 		(at 69.85 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5884,7 +6055,6 @@
 	)
 	(label "PA1 A1"
 		(at 114.3 165.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5895,7 +6065,6 @@
 	)
 	(label "I2C_SDA"
 		(at 224.79 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5906,7 +6075,6 @@
 	)
 	(label "PC14 OSC32_IN"
 		(at 168.91 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5917,7 +6085,6 @@
 	)
 	(label "PA9"
 		(at 43.18 157.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5929,7 +6096,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 243.84 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5941,7 +6107,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 241.3 152.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5953,7 +6118,6 @@
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 88.9 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5965,7 +6129,6 @@
 	(hierarchical_label "IN Ref"
 		(shape input)
 		(at 25.4 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5977,7 +6140,6 @@
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 85.09 21.59 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5989,7 +6151,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 118.11 158.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6001,7 +6162,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 48.26 73.66 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6013,7 +6173,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 88.9 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6025,7 +6184,6 @@
 	(hierarchical_label "IN Signal"
 		(shape input)
 		(at 26.67 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6037,7 +6195,6 @@
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 118.11 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6049,7 +6206,6 @@
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 243.84 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6061,7 +6217,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 45.72 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6073,7 +6228,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 85.09 39.37 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6082,10 +6236,20 @@
 		)
 		(uuid "bf5bcdde-5d32-419c-82c3-4c3635adb3b0")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 106.68 118.11 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9a713cb-7796-476f-8b47-c2d2a0742f4d")
+	)
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 241.3 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6097,7 +6261,6 @@
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 45.72 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6109,7 +6272,6 @@
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 48.26 22.86 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6393,6 +6555,75 @@
 			(project "Hardware"
 				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a/9fe3c419-1bbf-4711-a173-31b4697dc050"
 					(reference "JP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 113.03 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f2e06bf-cad1-4d85-85a2-ba9c542536e3")
+		(property "Reference" "C21"
+			(at 114.046 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 113.792 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.9952 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 113.03 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "598d1ad1-f988-4e07-873f-363c61d5bf7d")
+		)
+		(pin "1"
+			(uuid "ad909899-52c0-4001-8236-540e7c209c0a")
+		)
+		(instances
+			(project "Hardware"
+				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a/9fe3c419-1bbf-4711-a173-31b4697dc050"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8350,6 +8581,76 @@
 			(project "Hardware"
 				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a/9fe3c419-1bbf-4711-a173-31b4697dc050"
 					(reference "JP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 100.33 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b765e963-5f5a-4679-bfcc-7f9b8e14624d")
+		(property "Reference" "SW3"
+			(at 101.6 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 101.6 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0483fd7-8333-489c-9044-69bbf950be39")
+		)
+		(pin "2"
+			(uuid "542789a1-782e-4e00-86a4-6bd1dccc8e34")
+		)
+		(instances
+			(project ""
+				(path "/4e457c11-25d4-4677-9942-6ed7396aaf8a/9fe3c419-1bbf-4711-a173-31b4697dc050"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
