@@ -1700,7 +1700,7 @@
 		(uuid "f5f67045-3de8-4e18-8579-a575f8b54de4")
 	)
 	(no_connect
-		(at 81.28 48.26)
+		(at 71.12 50.8)
 		(uuid "be419068-73d1-4720-9b84-a1ada6a39c09")
 	)
 	(wire
@@ -2065,16 +2065,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 50.8) (xy 71.12 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c9cd5f4-3805-4621-abdb-d33384b1be69")
-	)
-	(wire
-		(pts
 			(xy 212.09 38.1) (xy 208.28 38.1)
 		)
 		(stroke
@@ -2102,6 +2092,16 @@
 			(type default)
 		)
 		(uuid "7406eb02-b004-416c-a593-e6344f2ca2e0")
+	)
+	(wire
+		(pts
+			(xy 60.96 55.88) (xy 71.12 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7858f138-3dcb-434e-a4af-ddda6c878f58")
 	)
 	(wire
 		(pts
@@ -2624,7 +2624,7 @@
 		(uuid "1ffa41c4-4de9-4488-8a1d-99b8e435af91")
 	)
 	(label "+BATT"
-		(at 60.96 50.8 0)
+		(at 60.96 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2830,23 +2830,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 76.2 50.8 0)
+		(at 76.2 53.34 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "162726fc-c3bd-4062-96ab-9e68d59c3004")
 		(property "Reference" "SW1"
-			(at 76.2 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
 			(at 76.2 44.45 0)
 			(effects
 				(font
@@ -2854,8 +2846,16 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 76.2 50.8 0)
+		(property "Value" "Power_Hard"
+			(at 76.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+			(at 76.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +2864,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 58.42 0)
+			(at 76.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +2873,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 76.2 50.8 0)
+			(at 76.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3107,8 +3107,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 125.73 92.71 0)
-		(mirror y)
+		(at 125.73 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3116,22 +3115,22 @@
 		(dnp no)
 		(uuid "3323da08-3f9b-4e1c-873d-cc973f36684a")
 		(property "Reference" "SW2"
-			(at 125.73 83.82 0)
+			(at 125.73 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_SPDT"
-			(at 125.73 86.36 0)
+		(property "Value" "Power_Soft"
+			(at 125.73 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 125.73 92.71 0)
 			(effects
 				(font
@@ -3141,7 +3140,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 100.33 0)
+			(at 125.73 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3403,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "390MΩ"
+		(property "Value" "330MΩ preferably 390MΩ"
 			(at 109.982 82.55 90)
 			(effects
 				(font
@@ -3412,7 +3411,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 109.728 82.55 90)
 			(effects
 				(font
