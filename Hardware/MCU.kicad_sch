@@ -6213,17 +6213,6 @@
 		)
 		(uuid "2b7b5dbc-0d22-43eb-9350-530b3132b9a7")
 	)
-	(hierarchical_label "IN Ref"
-		(shape input)
-		(at 77.47 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "39bf9370-63e4-43a3-87fe-4e7e7b3890d4")
-	)
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 85.09 21.59 90)
@@ -6290,6 +6279,17 @@
 		)
 		(uuid "604c2f96-3fb4-45ec-a0c6-58e819307ed5")
 	)
+	(hierarchical_label "IN Ref"
+		(shape input)
+		(at 77.47 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f2f53f7-4440-4e0f-829a-6338e4051c7c")
+	)
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 243.84 105.41 180)
@@ -6314,14 +6314,14 @@
 	)
 	(hierarchical_label "IN Signal"
 		(shape input)
-		(at 77.47 91.44 180)
+		(at 77.47 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ac6675d5-3018-42da-a58e-d34a2a6f366e")
+		(uuid "b437f882-f58d-4845-95aa-bc590a4d2fb0")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -7774,7 +7774,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x07 USART2"
+		(property "Value" "USART2"
 			(at 62.23 139.6999 0)
 			(effects
 				(font
@@ -8290,7 +8290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Left"
 			(at 96.52 69.85 0)
 			(effects
 				(font
