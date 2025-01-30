@@ -2573,7 +2573,7 @@
 		)
 		(uuid "b249b2a6-fe04-406b-926e-c51c847819a2")
 	)
-	(text "Switch between:\n1. Undervoltage\n3. Soft off"
+	(text "Switch between:\n1. Soft off\n3. Undervoltage"
 		(exclude_from_sim no)
 		(at 131.064 76.454 0)
 		(effects
