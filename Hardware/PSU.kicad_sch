@@ -2593,7 +2593,7 @@
 		)
 		(uuid "b3f72152-518e-43e7-ad48-06af73722e27")
 	)
-	(text "EN>=0.9V ACTIVE\nEN<=0.4V INACTIVE\n\n3.9V/0.4V=9.75V/V\n3.9V/10V/V=0.39V\n\n(1/(1/39MΩ+1/390MΩ)+4MΩ)/4MΩ≈9.8636...\n(1/(1/39MΩ+1/330MΩ)+4MΩ)/4MΩ≈9.7195...\n\n3.9V/9.8636...≈0.395392...V\n0.4V*9.8636...≈3.94545...V\n\nImpedance enable pin≈5.5/0.01uA=550MΩ"
+	(text "EN>=0.9V ACTIVE\nEN<=0.4V INACTIVE\n\n3.9V/0.4V=9.75V/V\n3.9V/10V/V=0.39V\n\n(1/(1/39MΩ+1/390MΩ)+4MΩ)/4MΩ≈9.8636...\n(1/(1/39MΩ+1/330MΩ)+4MΩ)/4MΩ≈9.7195...\n\n3.9V/9.7195...≈0.4013...V\n0.4V*9.7195...≈3.8878...V\n\nImpedance enable pin≈5.5/0.01uA=550MΩ"
 		(exclude_from_sim no)
 		(at 124.46 125.222 0)
 		(effects
